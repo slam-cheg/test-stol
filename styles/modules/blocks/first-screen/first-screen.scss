@@ -4,6 +4,7 @@
     height: 100vh;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
 
     @media screen and (max-width: 1199px) {
         max-width: calc(100% - 24px);
