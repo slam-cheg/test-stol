@@ -1,0 +1,19 @@
+.first-screen {
+    display: flex;
+    max-width: 1660px;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 1199px) {
+        max-width: calc(100% - 24px);
+        overflow: unset;
+        display: grid;
+        grid-template-areas:
+            "h1"
+            "text"
+            "table"
+            "text2";
+        margin: 0 auto;
+    }
+}

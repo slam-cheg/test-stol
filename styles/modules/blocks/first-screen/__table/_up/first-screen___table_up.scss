@@ -1,0 +1,8 @@
+.first-screen___table_up {
+    transform: translateY(-30px);
+    transition: 1s;
+
+    @media screen and (max-width: 1199px) {
+        transform:  translateY(0);
+    }
+}

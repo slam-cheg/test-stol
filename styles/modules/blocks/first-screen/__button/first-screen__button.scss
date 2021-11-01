@@ -1,0 +1,36 @@
+.first-screen__button {
+    @include font;
+    background-color: $light-blue;
+    color: $black;
+    border-radius: 100px;
+    border: none;
+    font-size: 40px;
+    width: 200px;
+    height: 200px;
+    line-height: 170%;
+    margin-right: 73px;
+    cursor: pointer;
+    z-index: 3;
+    transition: 0.2s;
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+
+    &:hover {
+        transition: 0.2s;
+        opacity: 0.6;
+    }
+
+    @media screen and (max-width: 1199px) {
+        font-size: 12px;
+        line-height: 170%;
+        width: 61px;
+        height: 61px;
+        margin-right: 22px;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@import '../vendor/normalize.css';
+@import '../vendor/fonts/fonts.css';
+@import './modules/mixins.scss';
+@import './modules/variables.scss';
+
+@import './modules/blocks/page/page.scss';
+@import './modules/blocks/first-screen/first-screen.scss';
+@import './modules/blocks/first-screen/__title/first-screen__title.scss';
+@import './modules/blocks/first-screen/__text/first-screen__text.scss';
+@import './modules/blocks/first-screen/__table/first-screen__table.scss';
+@import './modules/blocks/first-screen/__images-wrapper/first-screen__images-wrapper.scss';
+@import './modules/blocks/first-screen/__table/_legs/first-screen__table_legs.scss';
+@import './modules/blocks/first-screen/__table/_desk/first-screen__table_desk.scss';
+@import './modules/blocks/first-screen/__button-wrapper/first-screen__button-wrapper.scss';
+@import './modules/blocks/first-screen/__button/first-screen__button.scss';
+@import './modules/blocks/first-screen/__table/_up/first-screen___table_up.scss';

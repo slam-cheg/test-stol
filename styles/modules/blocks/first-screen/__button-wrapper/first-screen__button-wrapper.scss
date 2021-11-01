@@ -1,0 +1,25 @@
+.first-screen__button-wrapper {
+    position: absolute;
+    bottom: 160px;
+    z-index: 3;
+    left: calc(50% - 236px);
+
+    @media screen and (max-width: 1199px) {
+        bottom: 130px;
+        left: calc(50% - 80px);
+    }
+
+    @media screen and (max-width: 659px) {
+        bottom: 130px;
+        left: calc(50% - 80px);
+    }
+
+    @media screen and (max-width: 539px) {
+        bottom: 60px;
+        left: calc(50% - 80px);
+    }
+
+    @media screen and (max-width: 359px) {
+        bottom: 40px;
+    }
+}
