@@ -1,0 +1,15 @@
+.first-screen__table_desk {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    transition: 1s;
+    transform: translateY(100px);
+
+    @media screen and (max-width: 659px) {
+        transform: translateY(60px);
+    }
+
+    @media screen and (max-width: 419px) {
+        transform: translateY(40px);
+    }
+}

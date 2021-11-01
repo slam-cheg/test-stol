@@ -1,0 +1,21 @@
+.first-screen__title {
+    @include font;
+    color: $blue;
+    font-size: 62px;
+    line-height: 100%;
+    width: 580px;
+    margin-bottom: 38px;
+    
+
+    @media screen and (max-width: 1199px) {
+        font-family: "Bebas Neue";
+        font-size: 38px;
+        line-height: 100%;
+        width: calc(100% - 24px);
+        margin: 0 auto;
+        margin-bottom: 38px;
+        padding-top: 12px;
+        grid-area: h1;
+
+    }
+}

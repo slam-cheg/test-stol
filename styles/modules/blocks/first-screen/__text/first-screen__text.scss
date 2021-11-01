@@ -1,0 +1,21 @@
+.first-screen__text {
+    @include font;
+    color: $black;
+    font-size: 22px;
+    line-height: 170%;
+    width: 500px;
+    margin-bottom: 37px;
+    grid-area: text;
+
+    &:last-of-type {
+        margin-bottom: 0;
+        grid-area: text2;
+    }
+
+    @media screen and (max-width: 1199px) {
+        font-size: 16px;
+        line-height: 170%;
+        width: calc(100% - 24px);
+        margin: 0 auto;
+    }
+}
